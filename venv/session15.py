@@ -9,7 +9,8 @@
     DialogFlow Intro
 """
 
-class Point:s
+class Point:
+
 
     # self is Reference to Current Object
     def __init__(self, x=0, y=0):
