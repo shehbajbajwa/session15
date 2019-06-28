@@ -1,0 +1,13 @@
+import pandas as pd
+table = pd.read_csv("citytemps.csv")
+print(table)
+print("-----------")
+print(table["Year"])
+print("-------------")
+print(table.iloc[3])
+print()
+print(table.iloc[1:5])
+print("--------------head-----------")
+print(table.head(5))
+print("-----------------tail--------")
+print(table.tail(5))
