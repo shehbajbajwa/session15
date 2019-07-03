@@ -8,7 +8,7 @@ print(frame)
 print("==========")
 print(frame.sum)
 print("===========")
-print(frame.std())
+print(frame.std())   #standard deviation
 print("===========")
 print(frame.max())
 print("===========")
